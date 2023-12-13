@@ -55,17 +55,14 @@ if (savedIcon) {
 }
 
 //Scroll to top button
-console.log('Script loaded');
 
 const scrolltopBtn = document.querySelector('.scrolltotop-btn');
 
 window.addEventListener('scroll', function() {
-    console.log('Scroll event triggered');
     scrolltopBtn.classList.toggle('active', window.scrollY > 500);
 });
 
 scrolltopBtn.addEventListener('click', function() {
-    console.log('Button clicked');
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 });
@@ -91,19 +88,39 @@ document.addEventListener("DOMContentLoaded", function () {
     updateActiveLink();
 });
 //Responsive navigation menu toggle
-//const menuBtn=document.querySelector('.nav-menu-btn');
-//const closeBtn=document.querySelector('.nav-close-btn');
-//const Navigation=document.querySelector('.navigation');
-//document.addEventListener('click', (event) => {
-//    if (event.target.classList.contains('nav-menu-btn')) {
-//        Navigation.classList.add('active');
-//    } else if (event.target.classList.contains('nav-close-btn')) {
-//        Navigation.classList.remove('active');
-//    }
-//});
+const menuBtn=document.querySelector('.hamburger');
+const closeBtn=document.querySelector('.cross');
+const Navigation=document.querySelector('.navigation');
+const navitems=document.querySelector('.nav-items');
+
+menuBtn.addEventListener("click",()=>{
+    Navigation.classList.add("active")
+})
+closeBtn.addEventListener("click",()=>{
+    Navigation.classList.remove("active")
+})
+    navitems.addEventListener("click",()=>{
+    Navigation.classList.remove("active")
+});
+
 
 
 
 //Scroll reveal animation
 //common reveal options to create reveal animations
+ScrollReveal({
+    reset: true,
+    distance:'60px',
+    duration: 1500,
+    delay:100
+});
 // Target elements,and specify options to create reveal animations
+ScrollReveal().reveal('.home .info h2, .section-title-1,.section-title-2',{delay:400,origin:'left'});
+ScrollReveal().reveal('.home .info h3, .home .info p,about-info .btn',{delay:500,origin:'right'});
+ScrollReveal().reveal('.home .info .btn',{delay:600,origin:'bottom'});
+ScrollReveal().reveal('.media-icons i',{delay:700,origin:'left',interval:200});
+ScrollReveal().reveal('.home-img,.about-img',{delay:400,origin:'bottom'});
+ScrollReveal().reveal('.about .description',{delay:500,origin:'right'});
+ScrollReveal().reveal('.skills-content .skills-name',{delay:400,origin:'right',interval:200});
+ScrollReveal().reveal('.qualification-data li',{delay:300,origin:'right',interval:200});
+ScrollReveal().reveal('.footer-container .group',{delay:300,origin:'top',interval:200});

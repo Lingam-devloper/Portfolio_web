@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <!--Scroll to top button-->
@@ -23,6 +24,7 @@
         <a href="#" class="logo">Developer</a>
         <nav class="navigation">
             <div class="nav-items">
+                <div class="cross"><i class="fas fa-times"></i></div>
                 <a class="active" href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
@@ -31,24 +33,25 @@
                 <a href="#contact">Contact</a>
             </div>
         </nav>
-        </div>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </div>
     </header>
     <!--Home section-->
     <section id="home" class="home flex-center">
         <div class="home-container">
-            <div id="media-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <div id="media-icons" class="media-icons">
+                <a href="https://www.linkedin.com/in/lingeshwaran2003/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Lingam-devloper/Portfolio_web" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div id="home-img">
+                <img src="./Assets/person.png">
             </div>
             <div class="info">
                 <h2>Hi, I am Lingeshwaran</h2>
                 <h3>Frontend Developer</h3>
                 <p>I am a Frontend Developer with a passion for creating beautiful and interactive UI.</p>
-                 <a href="#" class="btn">Contact me<i class="fa fa-arrow-right"></i></a>
-            </div>
-            <div id="home-img">
-                <img src="./Asstes/project_2.jpg">
+                 <a href="#contact" class="btn">Contact me<i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
         <a href="#about" class="scroll-down">Scroll down<i class="fa fa-arrow-down"></i></a>
@@ -60,17 +63,17 @@
             <h2 class="section-title-2">About me</h2>
             <div class="content flex-center">
             <div class="about-img">
-                <img src="./Asstes/about.png">
+                <img src="./Assets/about.png">
             </div>
             <div class="about-info">
                 <div class="description">
                     <h3>I,m Lingeshwaran</h3>
-                    <h4>I am a <span>Frontend Developer</span> with a passion for creating beautiful and interactive UI</h4>
+                    <h4>I am a <span>Frontend Developer</span> </h4>
                     <p>
                         A front end developer who is always eager to learn new technologies and create innovative solutions using HTML5, CSS3,Bootstrap, JavaScript and ReactJs. My passion is to design digital user interface experience through meaningfull interactions. check out my Portfolio
                     </p>
                 </div>
-                <div><a href="./Asstes/Resume.pdf" class="btn">Download Resume<i class="fa fa-file-arrow-down"></i></a></div> 
+                <div><a href="./Assets/Resume.pdf" class="btn">Download Resume<i class="fa fa-file-arrow-down"></i></a></div> 
             </div>
             </div>
         </div>
@@ -94,8 +97,8 @@
     </div>
     <!--Education section-->
     <section class="qualification qualification-section" id="education">
-        <div class="container flex-center">
-            <h1 class="section-title">Education</h1>
+    <div class="container flex-center">
+        <h1 class="section-title">Education</h1>
             <span class="section-subtitle">My Journey</span>
             <div class="qualification-container qualification-content">
                  <div class="education-title"><i class="fa-solid fa-graduation-cap education-icon"></i>Education
@@ -135,13 +138,12 @@
                     </div>
             </div>
             </div>
-    </section>
-    <!--Portfolio section-->
-    <section class="portfolio section" id="portfolio">
-        <div class="container flex-center">
-            <h1 class="section-title-1">Portfolio</h1>
+        </section>
+      <!--Portfolio section-->
+  <section class="portfolio section" id="portfolio">
+    <div class="container flex-center">
+        <h1 class="section-title-1">Portfolio</h1>
             <h2 class="section-title-2">Portfolio</h2>
-            
             <div class="content">
                 <div class="portfolio-list">
                     <div class="img-card-container">
@@ -149,16 +151,16 @@
                             <div class="overlay">
                                 <div class="info">
                                     <h3>E-commerce Website</h3>
-                                    <p>This is a E-commerce website built using React and Redux js</p>
+                                    <p>This is a E-commerce website built using HTML,CSS & JavaScript</p>
                                     </div>
-                                    <img class="portfolio-img" src="./Asstes/project_1.jpg">
+                                    <img class="portfolio-img" src="./Assets/project_1.jpg">
                                 </div>
                                 <div class="portfolio-model flex-center">
                                     <div class="portfolio-model-body">
                                         <i class="fa fa-times portfolio-close-btn"></i>
                                         <h3>E-commerce Website</h3>
-                                        <img src="./Asstes/project_1.jpg" class="portfolio-img">
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ex illum et omnis quidem aut maxime ut ipsum expedita laborum?</p>
+                                        <img src="./Assets/project_1.jpg" class="portfolio-img">
+                                        <p>E-commerce website built using HTML,CSS & JavaScript <a href="https://github.com/Lingam-devloper/Spices_web" class="project-btn">Project Link</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -170,14 +172,14 @@
                                         <h3>Responsive Portfolio</h3>
                                         <p>This is a Portfolio website built using HTML CSS & JavaScript</p>
                                         </div>
-                                        <img class="portfolio-img" src="./Asstes/project_2.jpg">
+                                        <img class="portfolio-img" src="./Assets/project_2.jpg">
                                         </div>
                                         <div class="portfolio-model flex-center">
                                             <div class="portfolio-model-body">
                                                 <i class="fa fa-times portfolio-close-btn"></i>
                                                 <h3>Portfolio</h3>
-                                                <img src="./Asstes/project_2.jpg" class="portfolio-img">
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, suscipit?</p>
+                                                <img src="./Assets/project_2.jpg" class="portfolio-img">
+                                                <p>Portfolio website built using HTML CSS & JavaScript<a href="https://github.com/Lingam-devloper/Portfolio_web" class="project-btn">Project Link</a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -189,25 +191,22 @@
                                                     <h3>Simple Projects</h3>
                                                     <p>This is a Simple Projects built using HTML CSS & JavaScript</p>
                                                     </div>
-                                                    <img class="portfolio-img" src="./Asstes/project_3.jpg">
+                                                    <img class="portfolio-img" src="./Assets/project_3.jpg">
                                                     </div>
                                                     <div class="portfolio-model flex-center">
                                                         <div class="portfolio-model-body">
                                                             <i class="fa fa-times portfolio-close-btn"></i>
                                                             <h3>Simple Projects</h3>
-                                                            <img src="./Asstes/project_3.jpg" class="portfolio-img">
-                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, suscipit?</p>
-                                                            </div>
+                                                            <img src="./Assets/project_3.jpg" class="portfolio-img">
+                                                            <p>Simple Projects built using HTML CSS & JavaScript<a href="https://github.com/Lingam-devloper/BasicWebCreationsRepo" class="project-btn">Project Link</a></p>
                                                         </div>
                                                     </div>
-                                                </div>
+                                               </div>
+                                         </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+            </section>
     <!--contact section-->
     <section class="contact section" id="contact">
         <div class="flex-center container">
@@ -223,9 +222,9 @@
                 </div>
                 <div class="contact-info">
                     <i class="fa-brands fa-linkedin contact-icon"></i>
-                    <div class="linkedin">
+                     <div class="linkedin">
                         <h3 class="contact-title">Linkedin</h3>
-                        <a href="#" class="contact-subtitle"
+                        <a href="https://www.linkedin.com/in/lingeshwaran2003/" class="contact-subtitle"
                         target="_blank">@lingeshwaran</a>
                     </div>
                 </div>
@@ -255,8 +254,8 @@
                 <h3>Follow</h3>
                 <ul>
                     <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Lingam-devloper/Portfolio_web"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/lingeshwaran2003/"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
