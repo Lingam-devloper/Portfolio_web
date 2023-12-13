@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Lingeshwaran</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-- Hi I'm Creating a [Portfolio_Website](view_demo)
+- Hi I'm Creating a [Portfolio_Website]<a href=" https://lingam-devloper.github.io/Portfolio_web/">(view_demo)</a>
 
 - 🌱 I’m currently learning **jest**
 
-- 👨‍💻 All of my projects are available at [portfolio](portfolio)
+- 👨‍💻 All of my projects are available at My <a href="https://github.com/Lingam-devloper/Portfolio_web/">portfolio</a>
 
 - 📫 How to reach me **lingeshwaranemail@gmail.com**
 
