@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Lingeshwaran</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-- Hi I'm Creating a [Portfolio_Website]<a href=" https://lingam-devloper.github.io/Portfolio_web/">(view_demo)</a>
+- Hi I'm Creating a Portfolio_Website <a href="https://lingam-devloper.github.io/Portfolio_web/">view_demo</a>
 
 - 🌱 I’m currently learning **jest**
 
