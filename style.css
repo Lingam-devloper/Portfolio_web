@@ -439,6 +439,7 @@ header.sticky .nav-bar{
 /*Portfolio section*/
 .portfolio .container .content{
     width: 100%;
+    overflow: hidden;
 }
 .section-description{
     top: 0 ;
@@ -808,7 +809,7 @@ footer a{
     font-size: 1rem;
 }
 }
-/* media queries max-width 730px */
+/* media queries max-width 728px */
 @media screen and (max-width:728px){
     /* common styles for all sections */
     body{
@@ -862,11 +863,10 @@ footer a{
         padding: 10px 30px;
         border-radius:5px;
     }
+    
 }
 @media screen and (max-width:568px){
-    body{
-        overflow-x:hidden;
-    }
+    
     #home-img img{
         flex-wrap: nowrap !important;
         height: 250px;
@@ -885,4 +885,5 @@ footer a{
     .portfolio-model-body h3{
         font-size: 1em;
     }
+    
 }
