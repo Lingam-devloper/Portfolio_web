@@ -117,7 +117,7 @@ ScrollReveal({
 // Target elements,and specify options to create reveal animations
 ScrollReveal().reveal('.home .info h2, .section-title-1,.section-title-2',{delay:400,origin:'left'});
 ScrollReveal().reveal('.home .info h3, .home .info p,about-info .btn',{delay:500,origin:'right'});
-ScrollReveal().reveal('.home .info .btn',{delay:600,origin:'bottom'});
+ScrollReveal().reveal('.home .info .btn',{delay:600,origin:'left'});
 ScrollReveal().reveal('.media-icons i',{delay:700,origin:'left',interval:200});
 ScrollReveal().reveal('.home-img,.about-img',{delay:400,origin:'bottom'});
 ScrollReveal().reveal('.about .description',{delay:500,origin:'right'});
