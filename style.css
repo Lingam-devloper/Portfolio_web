@@ -864,6 +864,9 @@ footer a{
     }
 }
 @media screen and (max-width:568px){
+    body{
+        overflow-x:hidden;
+    }
     #home-img img{
         flex-wrap: nowrap !important;
         height: 250px;
