@@ -40,6 +40,7 @@ body{
     background-color: var(--body-bg-color);
     margin: 2rem 0 0 0;
     transition: .5s ease;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -657,9 +658,7 @@ footer a{
     display: none;
 }
 @media screen and (max-width:1070px){
-    body{
-        overflow-x:hidden;
-    }
+    
     .navigation{
         position: fixed;
         align-items: center;
@@ -863,16 +862,13 @@ footer a{
         padding: 10px 30px;
         border-radius:5px;
     }
-    
 }
 @media screen and (max-width:568px){
-    
     #home-img img{
-        flex-wrap: nowrap !important;
+        flex-wrap: nowrap;
         height: 250px;
         width:200px;
     }
-
     .project-btn{
         margin: 5px 60px;
         padding: 5px 10px;
@@ -885,5 +881,4 @@ footer a{
     .portfolio-model-body h3{
         font-size: 1em;
     }
-    
 }
