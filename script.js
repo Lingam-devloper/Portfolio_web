@@ -110,8 +110,8 @@ closeBtn.addEventListener("click",()=>{
 //common reveal options to create reveal animations
 ScrollReveal({
     reset: true,
-    distance:'60px',
-    duration: 1500,
+    distance:'-30px',
+    duration: 1000,
     delay:100
 });
 // Target elements,and specify options to create reveal animations

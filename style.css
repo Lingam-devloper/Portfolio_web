@@ -440,7 +440,6 @@ header.sticky .nav-bar{
 /*Portfolio section*/
 .portfolio .container .content{
     width: 100%;
-    overflow: hidden;
 }
 .section-description{
     top: 0 ;
@@ -450,7 +449,7 @@ header.sticky .nav-bar{
 }
 .portfolio-img{
     width: 500px;
-    height: 400px;
+    height: 300px;
     background-size: cover;
 }
 .portfolio-list{
@@ -475,7 +474,7 @@ header.sticky .nav-bar{
     width: 100%;
     height:100%;
     z-index: 777;
-    background: rgba(0, 0, 0, .5)
+    background: rgba(0, 0, 0, .5);
 }
 .portfolio-list .img-card .info{
     bottom: 0;
@@ -563,7 +562,7 @@ header.sticky .nav-bar{
     text-transform: capitalize;
  }
 /*Contact section*/
-.contact-conainer{
+.contact-container{
     row-gap: 3rem;
 }
 .contact-info{
