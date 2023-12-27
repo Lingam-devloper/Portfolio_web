@@ -764,7 +764,7 @@ footer a{
 .qualification-data li {
     margin: 30px 0;
 }
-/*Portfoilio section*/
+/*Portfolio section*/
 .portfolio-list{
     display:grid;
     width: fit-content;
@@ -869,13 +869,7 @@ footer a{
         font-size:small;
         display: block;
     }
-   .portfolio-model-body p{
-        font-size: 1rem;
-    }
-    .portfolio-model-body h3{
-        font-size: 1rem;
-    }
-    .portfolio-model-body{
-        width: 100%;
+    .portfolio-model{
+        top: 30%;
     }
 }
